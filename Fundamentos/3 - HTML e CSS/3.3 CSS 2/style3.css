@@ -1,0 +1,23 @@
+.title {
+    font: 100px;
+    text-align: center;
+}
+.top3 {
+    color: gray;
+}
+.tap3{
+    text-align: center;
+}
+li:hover {
+    background-color: greenyellow;
+}
+li:active {
+    color: hotpink;
+    font-family: Tahoma, sans-serif;
+}
+.stylelist1 {
+    list-style: none;
+}
+.stylelist2 {
+    list-style: none;
+}
