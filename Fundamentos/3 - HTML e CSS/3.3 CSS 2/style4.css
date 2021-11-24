@@ -1,0 +1,34 @@
+div {
+    font-family:Tahoma, sans-serif
+}
+div:hover {
+    background-color: darkblue;
+    border-bottom: 3px;
+}
+.azul {
+    background-color: blue;
+    color: white;
+    font-style: italic;
+}
+.amarelo {
+    background-color: yellow;
+    color: white;
+    padding: 1px;
+    font-style: italic;
+}
+.rosa {
+    background-color: rgb(255, 126, 249);
+    color: white;
+    font-style: italic;
+}
+.verde {
+    color: white;
+    background-color: green;
+}
+.vermelho {
+    background-color: red;
+    color: white;
+}
+h3:active{
+    color: turquoise;
+}
