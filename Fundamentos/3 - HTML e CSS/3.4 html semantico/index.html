@@ -14,16 +14,23 @@
         font-size: 20px;
         height: 50px;
         text-align: center;
-        width: 50%;
-        display: inline-block
+        width: 300px;
+        position: absolute;
+        z-index: 3;
+        right: 43%;
+        top: 101px;
       }
 
       .second {
-        background-color: rgb(219, 219, 219);
+        background-color: rgb(212, 26, 26);
         font-size: 20px;
         height: 50px;
         text-align: center;
         width: 300px;
+        position: absolute;
+        z-index: 2;
+        top: 150px;
+        right: 53%;
       }
 
       .third {
@@ -32,6 +39,10 @@
         height: 50px;
         text-align: center;
         width: 300px;
+        position: absolute;
+        z-index: 1;
+       top: 150px;
+        right: 30%
       }
 
       .primeiro {
@@ -46,10 +57,12 @@
       ul {
           list-style-type: none;
       }
-      .podio {
-          display: inline-block;
-          text-align: center;
-          width: 50px;
+      .premiacao {
+        position: absolute;
+        z-index: 4;
+        bottom: 40px;
+        right: 100px;
+        left: 100px;
       }
     </style>
   </head>
@@ -59,12 +72,12 @@
     </header>
     <section>
       <ul class="podio">
-        <li class="first">1º - Equipe 1</li>
+        <div><li class="first">1º - Equipe 1</li></div>
         <li class="second">2º - Equipe 2</li>
         <li class="third">3º - Equipe 3</li>
       </ul>
     </section>
-    <section>
+    <section class="premiacao">
         <div class="primeiro">
       <h3>Premiação Primeiro Lugar:</h3>
       <ul>
