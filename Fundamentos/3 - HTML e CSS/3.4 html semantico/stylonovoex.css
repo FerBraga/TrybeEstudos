@@ -1,0 +1,8 @@
+.nomecien {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 17px;
+}
+table, tr, td {
+    border:1px solid black;
+}
