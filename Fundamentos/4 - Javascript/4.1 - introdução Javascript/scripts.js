@@ -1,8 +1,8 @@
-const a= 9;
-const b= 7;
+const num1= 47;
+const num2= 78;
 
-console.log(a+b);
-console.log(a-b);
-console.log(a*b);
-console.log(a/b);
-console.log(a%b);
+if (num1 > num2) {
+    console.log(num1);
+} else {
+    console.log(num2);    
+}
