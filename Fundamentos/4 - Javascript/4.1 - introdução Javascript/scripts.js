@@ -1,9 +1,7 @@
-const num1= [8];
-const num2= [10];
-const num3= [7];
+const custo= 30;
+const venda= 100;
+const imposto= (20/custo)*9.2;
+const custoTotal= custo+imposto;
+const lucro= venda-custoTotal;
 
-if (num1%2!==0 || num2%2!==0 || num3%2!==0 ){
-    console.log(true);
-} else {
-    console.log(false);
-}   
+    console.log(lucro*1000);
