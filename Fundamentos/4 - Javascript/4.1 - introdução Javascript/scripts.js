@@ -1,18 +1,17 @@
-let peca1= "bispo";
+let nota= [63];
 
-
-if (peca1=== "bispo"){
-    console.log("movimentos diagonais");
-} else if ( peca1==="cavalo"){
-    console.log("movimentos em 'L'");
-} else if (peca1==="rainha"){
-    console.log("movimentos para todos os lados");
-} else if (peca1==="torre"){
-    console.log("movimentos para frente, para traz e para os lados");
-} else if (peca1==="rei"){
-    console.log("movimentos para todos os lados");
-} else if (peca1==="peão"){
-    console.log("movimentos para frente e para os lados");
-} else {
-    console.log("Peça inválida.")
+if (nota>= 90){
+console.log("A");
+} else if (nota>=80){
+    console.log("B");
+} else if (nota>= 70){
+    console.log("C");
+} else if (nota>=60){
+    console.log("D");
+} else if (nota>=50){
+    console.log("E");
+} else if (nota<50){
+    console.log("F");
+} else if (nota <0 || nota> 100 ){
+    console.log("Erro!")
 }
