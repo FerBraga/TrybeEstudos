@@ -1,7 +1,9 @@
-const custo= 30;
-const venda= 100;
-const imposto= (20/custo)*9.2;
-const custoTotal= custo+imposto;
-const lucro= venda-custoTotal;
+let numbers= [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let impares= [];
 
-    console.log(lucro*1000);
+for( let index= 0; index < numbers.length; index += 1) {
+   if ( numbers[index]% 2 !== 0 ) {
+      impares.push(numbers[index]);
+         }
+    }
+         console.log(impares);
