@@ -8,4 +8,4 @@ let player = {
     },
     bestInTheWorld: [2006, 2007, 2008, 2009, 2010, 2018],
 }
-console.log("A jogadora Marta foi eleita a melhor jogadora do mundo, 6 vezes:" + " " + player.bestInTheWorld)
+console.log(" A jogadora possui" + " " + medals.golden + " " + "medalhas de ouro, e " + " " + medals.silver + " " + "medalhas de prata.")
