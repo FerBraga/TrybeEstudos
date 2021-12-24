@@ -1,0 +1,1 @@
+document.querySelectorAll(".no-emergency-tasks")
