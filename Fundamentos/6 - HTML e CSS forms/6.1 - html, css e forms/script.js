@@ -10,3 +10,10 @@ function createStateOptions() {
     }
   }
   createStateOptions();
+
+  let enviar = document.querySelector("#enviar");
+
+  function mudaPadrao (event){
+    event.preventDefault();
+  }
+  enviar.addEventListener("click",mudaPadrao);

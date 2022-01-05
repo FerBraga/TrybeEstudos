@@ -9,27 +9,40 @@
 </head>
 <body>
     <form action="" method="get">
-        <fieldset>
-            <label for="nome-completo">Nome completo</label>
+        <fieldset><legend>Infos pessoais:</legend>
+            <label for="nome-completo">Nome completo</label><br>
             <input type="text" name="nome" id="nome-completo" maxlength="40" required><br><br>
-            <label for="email-usuario">E-mail</label>
+            <label for="email-usuario">E-mail</label><br>
             <input type="email" name="email" id="email-usuario" maxlength="50" required><br><br>
-            <label for="cpf-usuario">CPF</label>
+            <label for="cpf-usuario">CPF</label><br>
             <input type="text" name="cpf" id="cpf-usuario" maxlength="11" required><br><br>
-            <label for="endereço-usuario">Endereço</label>
+            <label for="endereço-usuario">Endereço</label><br>
             <input type="text" name="endereço" id="endereço-usuario" maxlength="200" required><br><br>
-            <label for="city">Cidade</label>
+            <label for="city">Cidade</label><br>
             <input type="text" name="cidade" id="city" maxlength="28" required><br><br>
-            <label for="estado">Estado</label>
-            <select name="estado" id="estado" required></select>
-
-            
-
-
-
+            <label for="estado">Estado</label><br>
+            <select name="estado" id="estado" required></select><br><br>
+            <label for="">Tipo:
+                <label for="tipo" aria-required="true">Casa</label>
+                <input type="radio" name="tipo" id="tipo" >
+                <label for="ap">Apartamento</label>
+                <input type="radio" name="tipo" id="ap" >
+            </label><br><br><br>
         </fieldset>
-    </form>
-
+        <fieldset>
+            <label for="resumo">Resumo do currículo</label><br>
+            <textarea name="texto" id="resumo" cols="50" rows="20" required></textarea><br><br>
+            <label for="cargo">Cargo</label><br>
+            <input type="text" name="cargo" id="cargo" required maxlength="40"><br><br>
+            <label for="descri">Descrição do cargo</label><br>
+            <input type="text" name="descri" id="descri" required maxlength="500"><br><br>
+            <label for="data">Data</label><br>
+            <input type="date" name="data" id="data" required><br><br>
+        </fieldset><br><br>
+        <button type="submit" name="enviar" id="enviar">Enviar</button><br><br>
+        <button type="reset" >Limpar</button>
+    </form><br>
+   
 
 
     <script src="script.js"></script>
