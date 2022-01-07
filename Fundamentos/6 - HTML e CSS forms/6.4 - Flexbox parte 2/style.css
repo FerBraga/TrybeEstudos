@@ -1,0 +1,22 @@
+.header-container {
+    display: flex;
+    
+}
+
+.menu-container {
+    display: flex;
+    flex-basis: 500px;
+}
+.logo-container {
+    display: flex;
+    flex-basis: 268px;
+}
+.lis {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    align-content: space-between;
+    align-content: stretch;
+    justify-content: space-between;
+    flex-basis: 350px;
+}
