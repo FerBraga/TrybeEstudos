@@ -1,22 +1,99 @@
 .header-container {
     display: flex;
+    background-color: rgb(83, 93, 109);
+    flex-direction: row-reverse;
+    justify-content: flex-end;
     
 }
 
 .menu-container {
     display: flex;
-    flex-basis: 500px;
+    flex-basis: 450px;
+    flex-grow: 5;
 }
 .logo-container {
     display: flex;
     flex-basis: 268px;
+    justify-content: flex-start;
+    align-self: flex-start;
+    order: 0;
+    align-self: center;
+
 }
 .lis {
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    align-items: flex-start;
     align-content: space-between;
     align-content: stretch;
     justify-content: space-between;
-    flex-basis: 350px;
+    flex-basis: 300px;
+    list-style: none;
+    color: white; 
+    font-weight: 850;
+    font-family:  Helvetica, sans-serif;
+    flex-wrap: wrap;
+    flex-grow: 6;
+    align-self: center;
 }
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+  }
+  
+  .movie-container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 700px;
+    flex-grow: 10;
+  }
+  
+  .movie-container h2 {
+    margin: 40px 0;
+    text-align: center;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .card-container div {
+    align-items: center;
+    background-color: #5C687C;
+    border: black solid 1px;
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    margin: 10px;
+    flex-basis: 16%;
+    flex-grow: 1;
+  }
+  
+  .aside-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    flex-basis: 350px;
+    align-self: center;
+    align-content: stretch;
+    flex-grow: 1;
+
+  }
+  
+  .aside-container h3, h4 {
+    margin-bottom: 10px;
+    text-align: center;
+    align-content: stretch;
+  }
+  
+  .aside-container p {
+    margin: 10px 0;
+    text-align: justify;
+    align-content: stretch;
+    align-items: stretch;
+    align-self: stretch;
+  }
