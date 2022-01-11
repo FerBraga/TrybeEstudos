@@ -64,7 +64,7 @@ figcaption {
   body {
     font-size: 50px;
     background-color: blueviolet;
-    margin: 25px;
+    margin: 15px;
   }
   section{
     display: flex;
@@ -77,4 +77,13 @@ figcaption {
   figure {
     max-width: 33%;
   }
+}
+
+@media screen and (min-width:1300px) {
+    body {
+      font-size: 60px;
+      background-color: burlywood;
+      margin: 10px;
+      max-width: 80%;
+    }
 }
