@@ -1,0 +1,60 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  @media screen and (max-width:500px) {
+    .cabecalho {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+  
+    .nave {
+     
+    }
+  
+    .menu {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: space-between;
+        width: 200px
+    }
+  
+    .aside-one {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10%;
+    }
+    .capitulos {
+        list-style: none;
+    }
+    .aside-two{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .book-info {
+        list-style: none;
+        
+    }
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 12%;
+    }
+    h1 {
+        text-align: center;
+
+    }
+    h2 {
+        margin-top: 15%;
+    }
+}
