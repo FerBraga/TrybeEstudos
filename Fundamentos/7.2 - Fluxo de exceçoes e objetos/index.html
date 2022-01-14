@@ -23,14 +23,13 @@
       document.getElementById('value1').value = '';
       document.getElementById('value2').value = '';
       try{
-        if(value1 === "" || value2 === ""){
-            throw new Error("Erro. Espaço em branco!");
+        if( isNaN(value1)  || isNaN(value2) ){
+            throw new Error("Erro. O valor colocado não é um número!");
         }
         } catch (error){
             document.getElementById('result').innerHTML = error.message;
         }
     }   
-
 
     window.onload = () => {
       const button = document.getElementById('button');
